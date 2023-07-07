@@ -6,7 +6,7 @@ const Driller = () => {
   const { categoryData } = useContext(UserContext);
 
   return (
-    <div className="row mt-5 ">
+    <div className="row mt-5">
       {categoryData.map((el, i) => {
         return <Slate key={i} data={el} />;
       })}
