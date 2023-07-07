@@ -58,7 +58,7 @@ const SignUp = () => {
     <Grid>
       <Paper elevation={20} style={paperStyle}>
         <Grid className="mb-3" align="center">
-          <img style={{ width: "100px" }} src={icon} />
+          <img style={{ width: "100px" }} src='https://urbansurf.ca/wp-content/uploads/2019/05/Rental-logo-600x347.png' />
           <h2 style={headerStyle}>SignUp</h2>
           <Typography variant="caption" gutterBottom>
             Please fill this form to create an account !

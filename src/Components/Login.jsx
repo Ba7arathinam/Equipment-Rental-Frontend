@@ -72,7 +72,7 @@ const Login = () => {
       <form style={{color:'WHITE'}} onSubmit={formik.handleSubmit} >
         <Paper className='log'elevation={10} style={paperStyle}>
           <Grid align="center" >
-            <img style={{ width: "100px" }} src={icon} />
+            <img style={{ width: "100px" }} src='https://urbansurf.ca/wp-content/uploads/2019/05/Rental-logo-600x347.png'/>
             <h2>Login in</h2>
             <AddHomeIcon />
           </Grid>
