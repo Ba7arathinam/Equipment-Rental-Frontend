@@ -91,7 +91,7 @@ const Login = () => {
             className="mt-3"
             label="Password"
             placeholder="Enter Password"
-            style={{background:"black",opacity:0.9}}
+            style={{background:"gray",opacity:0.9,color:'white'}}
             fullWidth
             required
             type="password"
